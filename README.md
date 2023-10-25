@@ -8,3 +8,4 @@ This is a simple Flask Web Server that listens for http request and responds wit
 ### Technologies used:
 * Python
 * Flask
+* css
