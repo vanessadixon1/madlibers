@@ -1,0 +1,51 @@
+body {
+    font-size: 62.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+ 
+}
+
+p {
+    font-size: 2rem;
+} 
+
+form  input, button{
+    display: flex;
+    font-size: 1rem;
+}
+
+form label {
+    position: relative;
+    right: 40px;
+    top: 20px;
+    font-size: 1rem;
+}
+
+form label:nth-of-type(4){
+    right: 65px;
+}
+
+form label:nth-of-type(5){
+    right: 85px;
+}
+
+form button {
+    margin-top: 10px;
+}
+
+
+div #stories select {
+    position: relative;
+    right: 38px;
+    top: 20px   
+}
+
+
+div #stories button {
+   margin-top: 50px;  
+}

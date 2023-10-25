@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{%block title%}Homepage{%endblock%}
+
+{%block content %}
+<div>
+    <form id="stories" action="/madlibs">
+        <label for="story">Select a Story </label>
+        <select name="story" id="story">
+            <option value="once upon a time">Once Upon a Time</option>
+            <option value="summer day">Summer Day</option>
+            <option value="places and time">Places and Time</option>
+        </select>
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+
+ {%endblock%}
